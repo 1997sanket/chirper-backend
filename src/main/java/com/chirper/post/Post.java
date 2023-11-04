@@ -1,8 +1,9 @@
 package com.chirper.post;
 
 import com.chirper.user.User;
-import jakarta.persistence.*;
 import lombok.*;
+
+import javax.persistence.*;
 
 @Data
 @NoArgsConstructor
