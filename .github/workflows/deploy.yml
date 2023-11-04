@@ -45,8 +45,4 @@ jobs:
                   version_label: ${{github.run_number}}
                   region: us-east-1
                   deployment_package: chirper-0.0.1-SNAPSHOT.jar
-                  env_vars: |
-                    DB_URL=${{ secrets.db_url }}
-                    DB_USERNAME=${{ secrets.db_username }}
-                    DB_PASSWORD=${{ secrets.db_password }}
 
