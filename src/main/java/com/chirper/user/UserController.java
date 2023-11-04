@@ -13,6 +13,11 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
+    @GetMapping("/")
+    public String hello() {
+        return "Hello";
+    }
+
     @PostMapping("/user/register")
     public User register(@RequestBody User user) {
 
